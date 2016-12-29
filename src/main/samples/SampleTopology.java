@@ -22,13 +22,13 @@ import org.apache.zookeeper.KeeperException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import backtype.storm.Config;
-import backtype.storm.LocalCluster;
-import backtype.storm.StormSubmitter;
-import backtype.storm.generated.AlreadyAliveException;
-import backtype.storm.generated.InvalidTopologyException;
-import backtype.storm.topology.TopologyBuilder;
-import backtype.storm.tuple.Fields;
+import org.apache.storm.topology.Config;
+import org.apache.storm.topology.LocalCluster;
+import org.apache.storm.topology.StormSubmitter;
+import org.apache.storm.topology.generated.AlreadyAliveException;
+import org.apache.storm.topology.generated.InvalidTopologyException;
+import org.apache.storm.topology.topology.TopologyBuilder;
+import org.apache.storm.topology.tuple.Fields;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.regions.Regions;
